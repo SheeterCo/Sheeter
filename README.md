@@ -4,7 +4,11 @@ Sheeter is your go-to project to easily convert Excel ⇄ JSON with handy cleani
 
 ## Versions history 📝
 
-**Beta 1**
+**[Latest (Beta 1)](https://github.com/TheLaval/Sheeter/releases/latest)**
+
+- **[Beta 1](https://github.com/TheLaval/Sheeter/releases/tag/beta-1)**
+- ...
+- ...
 
 ## Important folder structure 🗂️
 
