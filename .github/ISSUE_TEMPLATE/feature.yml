@@ -1,0 +1,34 @@
+name: ✨ Request a feature
+title: "[FEATURE]"
+description: Suggest something cool to improve Sheeter!
+labels:
+  - "[FEATURE]"
+body:
+  - type: input
+    id: feature-title
+    attributes:
+      label: 💡 What's your idea?
+      description: Give your feature a short and clear name
+      placeholder: Add support for multiple input files...
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 📄 Describe the feature
+      description: Explain what the feature does and why it's useful
+      placeholder: I think it would be helpful because...
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: ⏰ Urgency
+      description: How important is this feature to you?
+      options:
+        - Not urgent
+        - Nice to have
+        - Important
+        - Critical
+  - type: textarea
+    id: extra-notes
+    attributes:
+      label: 🧷 Anything else?
+      description: Links, references, mockups, vibes...
+      placeholder: Here's a Figma, or a repo that does it...
