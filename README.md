@@ -20,8 +20,6 @@
 |  Check if Excel is open in browser              | ❌ Not considered                | ✅ Works even if opened via browser |
 |  Format detection (dict/list) in JSON           | ❌ Static                        | ✅ Auto-converts dict to list    |
 
----
-
 ✅ **Beta 2 = More safe, more clean, more smart.**
 
 ---
@@ -94,16 +92,10 @@ saturday-24-may-2025_20h-19m-05s_1.log
 - Always close your Excel file before converting to avoid lock issues
 - JSON must be a list of objects or a dictionary
 - Excel file must contain columns: `key`, `value`
+- Wanna see version history? [Go here](https://github.com/SheeterCo/Sheeter/blob/main/HISTORY.md)
 
 ---
 
-## 📌 Version History
+Sheeter — The cheat code for your sheets. 🧑‍💻
 
-- [Beta 1](https://github.com/TheLaval/Sheeter/releases/tag/beta-1)
-- [Beta 2](https://github.com/TheLaval/Sheeter/releases/tag/beta-2)
-- ...
-
----
-
-Sheeter — The cheat code for your sheets. 🧑‍💻 
 Made with 💻 by [SheeterCo.](https://github.com/SheeterCo/) ([TheLaval](https://github.com/TheLaval))
