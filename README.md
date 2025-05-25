@@ -1,4 +1,4 @@
-# 🖨️ Sheeter — JSON ⇄ Excel Converter
+# ☕ Sheeter — JSON ⇄ Excel Converter
 
 **Sheeter** is your Python tool to convert between **Excel and JSON** files, with **smart file handling**, **clean logging**, and **auto-detection** of formats. From input cleaning to cross-platform compatibility and Excel lock prevention — Sheeter makes the job smooth and safe.  
 
