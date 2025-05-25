@@ -1,0 +1,25 @@
+name: 🧠 Ask a question
+title: "[QUESTION]"
+description: Need clarification or help with Sheeter?
+labels:
+  - "[QUESTION]"
+body:
+  - type: input
+    id: question-title
+    attributes:
+      label: ❓ Your question in one line
+      description: Summarize what you’re asking about
+      placeholder: How do I clean only JSON input?
+  - type: textarea
+    id: question-details
+    attributes:
+      label: 📖 More context?
+      description: Explain what you were doing, what’s unclear, or what you expected
+      placeholder: I was trying to run the converter and I got confused about...
+  - type: dropdown
+    id: version
+    attributes:
+      label: 🏷️ Which version are you using?
+      options:
+        - Beta 1
+        - Beta 2
