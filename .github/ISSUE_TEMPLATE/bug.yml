@@ -1,0 +1,36 @@
+name: 💥 Report a bug
+title: "[BUG]"
+description: This helps us improve your experience
+labels:
+  - "[BUG]"
+body:
+  - type: dropdown
+    id: dropdown-0
+    attributes:
+      label: 🏷️ Which version are you using?
+      description: "You can see it from: the file name/changelogs"
+      required: true
+      options:
+        - Beta 1
+        - Beta 2
+  - type: input
+    id: input-1
+    attributes:
+      label: 💬 What happened?
+      description: Tell us about the problem
+      placeholder: This happened...
+      required: true
+  - type: input
+    id: input-2
+    attributes:
+      label: 📝 The steps?
+      description: If you don't remember them, let us know.
+      placeholder: I first did... / I don't remember anymore...
+      required: true
+  - type: input
+    id: input-3
+    attributes:
+      label: ⚙️ The logs?
+      description: If you don't have any, say so
+      placeholder: Here are the logs... / I don't have any logs anymore...
+      required: true
