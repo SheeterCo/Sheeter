@@ -1,0 +1,17 @@
+name: 🌀 Other
+title: "[OTHER]"
+description: For anything else that doesn’t fit bugs/features/questions
+labels:
+  - "[OTHER]"
+body:
+  - type: input
+    id: other-title
+    attributes:
+      label: 🧷 What's this about?
+      placeholder: Random idea / typo in README / suggestion...
+  - type: textarea
+    id: other-details
+    attributes:
+      label: 📄 Give us the details
+      description: Be as specific as possible!
+      placeholder: I just wanted to say that...
