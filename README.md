@@ -18,7 +18,7 @@
   </a>
 </p>
 
-# 📦 Project Structure
+# Project Structure
 
 sheeter/
 
@@ -32,9 +32,9 @@ sheeter/
 
 ├── logs/ # Logs auto-generated for each conversion
 
-# 🚀 How to Use Sheeter
+# How to Use Sheeter
 
-## 🔁 Converters
+## Converters
 
 - **JSON → Excel**: Reads JSON (list or dict) and writes Excel file
 - **Excel → JSON**: Reads Excel with 'key' and 'value' columns and writes JSON
@@ -45,7 +45,7 @@ Each script:
 - Logs all steps and errors
 - Adjusts Excel column width for readability
 
-## 🧹 Cleaners
+## Cleaners
 
 There are 4 separate cleaning scripts to clean input or output files:
 - Clean Excel input
@@ -55,14 +55,14 @@ There are 4 separate cleaning scripts to clean input or output files:
 
 Each script deletes the corresponding file if it exists.
 
-## 📥 Input & Output
+## Input & Output
 
 - **input/** → `input.json` / `input.xlsx`
 - **output/** → `output.json` / `output.xlsx`
 
 ⚠️ **Do not rename input/output filenames — they must stay "input." or "output."**
 
-## 📄 Logs
+## Logs
 
 - All logs go into `/logs/` folder
 - File format:
@@ -72,7 +72,7 @@ saturday-24-may-2025_20h-19m-05s_1.log
 - Logs include steps, warnings, and errors (in English)
 - Printed both to file and console
 
-# 🔐 Tips
+# Tips
 
 - Always close your Excel file before converting to avoid lock issues
 - JSON must be a list of objects or a dictionary
